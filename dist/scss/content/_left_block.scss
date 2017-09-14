@@ -1,0 +1,113 @@
+@import "../extends/functions";
+@import "../extends/vars";
+
+.navigation-block {
+  background-color: $background-navigation-block;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  &__user-info {
+    &__image {
+      overflow: hidden;
+      margin: 5px auto;
+      width: 173px;
+      padding: 3px;
+      border: 3px solid $background-navigation-block-border-user;
+      background-color: $background-navigation-block-border-user-white;
+      @include borderRadius(50, 50, 50, 50, '%');
+      & > img {
+        @include borderRadius(50, 50, 50, 50, '%');
+      }
+    }
+    &__title {
+      & > h1 {
+        font-size: 23px;
+        text-align: center;
+        padding-top: 15px;
+        color: $left-block-color-title-text;
+        small {
+          text-align: center;
+          display: block;
+          color: $left-block-color-title-small-text;
+          padding-top: 10px;
+        }
+      }
+    }
+  }
+  &__user-contact {
+    &__element{
+      color: $left-block-color-title-text;
+      padding: 10px 5px;
+      & > address {
+        margin-bottom: 0;
+      }
+      i {
+        width: 35px;
+        padding-right: 10px;
+        text-align: center;
+        margin-right: 14px;
+        border-right: 1px solid;
+      }
+     & > a {
+        color: $left-block-color-title-text;
+      }
+    }
+  }
+  &__skills {
+    &__title {
+      display: flex;
+      & > h2 {
+        color: white;
+        font-size: 1.4rem;
+        font-weight: 700;
+        background: $background-navigation-block;
+        float: left;
+        position: relative;
+        padding-right: 15px;
+        margin-top: .5rem;
+        z-index: 2;
+      }
+      &:before {
+        content: '';
+        background: white;
+        width: 87%;
+        height: 2px;
+        padding: 1px;
+        position: absolute;
+        margin-top: 21px;
+        z-index: 1;
+      }
+    }
+    &__lists {
+      display: block;
+      padding-bottom: 10px;
+      & > .dop-options {
+        padding-left: 20px;
+        border-left: 1px solid $left-block-color-title-text;
+        margin-bottom: 0;
+      }
+      &__title {
+        font-size: 1.25rem;
+        color: $left-block-color-title-text;
+      }
+      ul {
+        list-style: none;
+        padding-left: 0;
+        margin-left: 0;
+        li {
+          display: inline-flex;
+          color: $left-block-color-title-text;
+          padding-right: 5px;
+          &:after {
+            content: ', ';
+          }
+          &:last-child {
+            padding-right: 0;
+            &:after {
+              content: '';
+            }
+          }
+        }
+      }
+    }
+  }
+}

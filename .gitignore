@@ -5,6 +5,7 @@
 # IntelliJ project files
 .idea
 *.iml
+assets/*.css.map
 out
 gen### Linux template
 *~

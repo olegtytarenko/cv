@@ -1,0 +1,136 @@
+html, body {
+  width: 100%;
+  height: 100%; }
+
+.navigation-block {
+  background-color: #425370;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+  .navigation-block__user-info__image {
+    overflow: hidden;
+    margin: 5px auto;
+    width: 173px;
+    padding: 3px;
+    border: 3px solid #8293b1;
+    background-color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%; }
+    .navigation-block__user-info__image > img {
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%; }
+  .navigation-block__user-info__title > h1 {
+    font-size: 23px;
+    text-align: center;
+    padding-top: 15px;
+    color: #cbcfd6; }
+    .navigation-block__user-info__title > h1 small {
+      text-align: center;
+      display: block;
+      color: #f9ff33;
+      padding-top: 10px; }
+  .navigation-block__user-contact__element {
+    color: #cbcfd6;
+    padding: 10px 5px; }
+    .navigation-block__user-contact__element > address {
+      margin-bottom: 0; }
+    .navigation-block__user-contact__element i {
+      width: 35px;
+      padding-right: 10px;
+      text-align: center;
+      margin-right: 14px;
+      border-right: 1px solid; }
+    .navigation-block__user-contact__element > a {
+      color: #cbcfd6; }
+  .navigation-block__skills__title {
+    display: flex; }
+    .navigation-block__skills__title > h2 {
+      color: white;
+      font-size: 1.4rem;
+      font-weight: 700;
+      background: #425370;
+      float: left;
+      position: relative;
+      padding-right: 15px;
+      margin-top: .5rem;
+      z-index: 2; }
+    .navigation-block__skills__title:before {
+      content: '';
+      background: white;
+      width: 87%;
+      height: 2px;
+      padding: 1px;
+      position: absolute;
+      margin-top: 21px;
+      z-index: 1; }
+  .navigation-block__skills__lists {
+    display: block;
+    padding-bottom: 10px; }
+    .navigation-block__skills__lists > .dop-options {
+      padding-left: 20px;
+      border-left: 1px solid #cbcfd6;
+      margin-bottom: 0; }
+    .navigation-block__skills__lists__title {
+      font-size: 1.25rem;
+      color: #cbcfd6; }
+    .navigation-block__skills__lists ul {
+      list-style: none;
+      padding-left: 0;
+      margin-left: 0; }
+      .navigation-block__skills__lists ul li {
+        display: inline-flex;
+        color: #cbcfd6;
+        padding-right: 5px; }
+        .navigation-block__skills__lists ul li:after {
+          content: ', '; }
+        .navigation-block__skills__lists ul li:last-child {
+          padding-right: 0; }
+          .navigation-block__skills__lists ul li:last-child:after {
+            content: ''; }
+
+.summary-block__description {
+  padding: 0 6rem; }
+.summary-block__title {
+  margin: 60px 0; }
+  .summary-block__title h2 {
+    background: white;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    padding: 0 50px; }
+  .summary-block__title:after {
+    content: '';
+    width: 92%;
+    position: absolute;
+    height: 2px;
+    padding: 1px;
+    background: #425370;
+    left: 0;
+    right: 0;
+    margin: 18px auto 0; }
+
+.item-info-block__title {
+  display: flex; }
+  .item-info-block__title > h3 {
+    color: #425370;
+    font-weight: 700;
+    background: white;
+    float: left;
+    position: relative;
+    padding-right: 15px;
+    margin-top: .5rem;
+    z-index: 2; }
+  .item-info-block__title:before {
+    content: '';
+    background: #425370;
+    width: 95%;
+    height: 2px;
+    padding: 1px;
+    position: absolute;
+    margin-top: 21px;
+    z-index: 1; }
+
+/*# sourceMappingURL=style.css.map */

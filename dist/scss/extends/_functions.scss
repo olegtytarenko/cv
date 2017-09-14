@@ -1,0 +1,13 @@
+@mixin borderRadius($topLeft, $topRight, $bottomRight, $bottomLeft, $typeSize) {
+  @if (($topLeft + $topRight + $bottomRight + $bottomLeft) / 4 ) == $topLeft {
+    border-radius: unquote($topLeft + $typeSize);
+    -webkit-border-radius:  unquote($topLeft + $typeSize);
+    -moz-border-radius: unquote($topLeft + $typeSize);
+    -ms-border-radius:  unquote($topLeft + $typeSize);
+  } @else {
+    border-radius: unquote($topLeft + $typeSize) unquote($topRight + $typeSize) unquote($bottomRight + $typeSize) unquote($bottomLeft + $typeSize);
+    -webkit-border-radius: unquote($topLeft + $typeSize) unquote($topRight + $typeSize) unquote($bottomRight + $typeSize) unquote($bottomLeft + $typeSize);
+    -moz-border-radius: unquote($topLeft + $typeSize) unquote($topRight + $typeSize) unquote($bottomRight + $typeSize) unquote($bottomLeft + $typeSize);
+    -ms-border-radius: unquote($topLeft + $typeSize) unquote($topRight + $typeSize) unquote($bottomRight + $typeSize) unquote($bottomLeft + $typeSize);
+  }
+}
