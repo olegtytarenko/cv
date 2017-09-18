@@ -125,12 +125,33 @@ html, body {
     z-index: 2; }
   .item-info-block__title:before {
     content: '';
-    background: #425370;
+    background: #e4e4e4;
     width: 95%;
     height: 2px;
     padding: 1px;
     position: absolute;
-    margin-top: 21px;
+    margin-top: 24px;
     z-index: 1; }
+
+.time__text-title {
+  text-transform: uppercase;
+  font-size: 24px;
+  color: #8d8e8e; }
+.time__text-diff {
+  display: block;
+  color: #4e4e4e; }
+
+.work__item {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 20px; }
+  .work__item:last-child {
+    border-bottom: 0; }
+.work__text-title {
+  color: #435471;
+  margin-top: 4px; }
+.work__text-title-company {
+  color: #2d2d2d;
+  font-size: 18px; }
 
 /*# sourceMappingURL=style.css.map */

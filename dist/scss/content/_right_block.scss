@@ -42,12 +42,13 @@
     }
     &:before {
       content: '';
-      background: $background-navigation-block;
+      background: #e4e4e4;
       width: 95%;
       height: 2px;
       padding: 1px;
       position: absolute;
-      margin-top: 21px;
+      margin-top: 24px;
+
       z-index: 1;
     }
   }

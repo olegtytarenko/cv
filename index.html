@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://use.fontawesome.com/5212d0c32f.js"></script>
+    <script src="https://momentjs.com/downloads/moment.js"></script>
     <title>CV: Oleg Tytarenko</title>
 </head>
 <body class="container-fluid">
@@ -98,17 +99,24 @@
             <div class="item-info-block">
                 <div class="item-info-block__title"><h3>Employment History</h3></div>
                 <div class="item-info-block__time">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="clo-lg-4">
-
-                            </div>
-                            <div class="clo-lg-8"></div>
-                        </div>
-                    </div>
+                    <div class="container-fluid" id="showListsWorked"></div>
+                </div>
+            </div>
+            <div class="item-info-block">
+                <div class="item-info-block__title"><h3>Education</h3></div>
+                <div class="item-info-block__time">
+                    <div class="container-fluid" id="showListsEducation"></div>
+                </div>
+            </div>
+            <div class="item-info-block">
+                <div class="item-info-block__title"><h3>Achievements</h3></div>
+                <div class="item-info-block__time">
+                    <div class="container-fluid" id="showListsAchievements"></div>
                 </div>
             </div>
         </div>
     </div>
+    <script type="application/javascript" src="assets/dateTime.js"></script>
+    <script type="application/javascript" src="assets/worksLists.js"></script>
 </body>
 </html>

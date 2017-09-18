@@ -1,0 +1,71 @@
+{
+  "lists": [
+    {
+      "dateBegin": "2015-08-01",
+      "dateEnd": "now",
+      "title": "Travel Agency Silpo Voyage (Tour Travel, Avia Tickets, Hotels, )",
+      "classifications":  ["Tour Travel", "Avia Tickets", "Hotel", "Insurance", "Train Tickets"],
+      "positionsHeld": "Middle PHP/Front-End Development"
+    },
+    {
+      "dateBegin": "2013-05-01",
+      "dateEnd": "2015-07-20",
+      "title": "Sale of auto electronics online 'Style Sound'",
+      "classifications": [],
+      "positionsHeld": "Junior PHP/Front-End Development"
+    },
+    {
+      "dateBegin": "2012-07-01",
+      "dateEnd": "2014-04-30",
+      "title": "Head of Marketing and Design Department 'Grado' (old. Botik & Glyanc)",
+      "classifications": ["sale of shoes and bags"],
+      "positionsHeld": ["Head of Marketing and Design Department", "PHP Development"]
+    },
+    {
+      "dateBegin": "2011-12-01",
+      "dateEnd": "2012-04-01",
+      "title": "Photo Style (old. KievCityPhoto)",
+      "classifications": ["photographer on the exit", "sale of unique designer photos"],
+      "positionsHeld": "Designer"
+    }
+  ],
+  "educations": [
+    {
+      "dateBegin": "2012-09-01",
+      "dateEnd": "2017-01-30",
+      "title": "National University of Life and Environmental Sciences of Ukraine",
+      "hasNotEnd": "Expert",
+      "positionsHeld": "Enterprise economy"
+    },
+    {
+      "dateBegin": "2010-09-01",
+      "dateEnd": "2012-05-30",
+      "title": "Kyiv National University of Construction and Architecture",
+      "hasNotEnd": "up to 2 courses",
+      "positionsHeld": "Water Supply Engineer"
+    }
+  ],
+  "achievements": [
+    {
+      "title": "Seo Optimizer",
+      "company": "EMPO",
+      "skils": [
+        "Google AdWords",
+        "Google Analytics",
+        "Google Search",
+        "Google Search Console",
+        "Google Tag Manager",
+        "Google Business",
+        "Yandex Search",
+        "Yandex Direct"
+      ]
+    },
+    {
+      "title": "JAVA Development",
+      "company": "It-center",
+      "skils": [
+        "Java Core", "Maven", "Spring", "OOP", "Hibernate", "..."
+      ]
+    }
+  ]
+}
