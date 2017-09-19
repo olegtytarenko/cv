@@ -1,71 +1,216 @@
 {
-  "lists": [
+  "items": [
     {
-      "dateBegin": "2015-08-01",
-      "dateEnd": "now",
-      "title": "Travel Agency Silpo Voyage (Tour Travel, Avia Tickets, Hotels, )",
-      "classifications":  ["Tour Travel", "Avia Tickets", "Hotel", "Insurance", "Train Tickets"],
-      "positionsHeld": "Middle PHP/Front-End Development"
-    },
-    {
-      "dateBegin": "2013-05-01",
-      "dateEnd": "2015-07-20",
-      "title": "Sale of auto electronics online 'Style Sound'",
-      "classifications": [],
-      "positionsHeld": "Junior PHP/Front-End Development"
-    },
-    {
-      "dateBegin": "2012-07-01",
-      "dateEnd": "2014-04-30",
-      "title": "Head of Marketing and Design Department 'Grado' (old. Botik & Glyanc)",
-      "classifications": ["sale of shoes and bags"],
-      "positionsHeld": ["Head of Marketing and Design Department", "PHP Development"]
-    },
-    {
-      "dateBegin": "2011-12-01",
-      "dateEnd": "2012-04-01",
-      "title": "Photo Style (old. KievCityPhoto)",
-      "classifications": ["photographer on the exit", "sale of unique designer photos"],
-      "positionsHeld": "Designer"
-    }
-  ],
-  "educations": [
-    {
-      "dateBegin": "2012-09-01",
-      "dateEnd": "2017-01-30",
-      "title": "National University of Life and Environmental Sciences of Ukraine",
-      "hasNotEnd": "Expert",
-      "positionsHeld": "Enterprise economy"
-    },
-    {
-      "dateBegin": "2010-09-01",
-      "dateEnd": "2012-05-30",
-      "title": "Kyiv National University of Construction and Architecture",
-      "hasNotEnd": "up to 2 courses",
-      "positionsHeld": "Water Supply Engineer"
-    }
-  ],
-  "achievements": [
-    {
-      "title": "Seo Optimizer",
-      "company": "EMPO",
-      "skils": [
-        "Google AdWords",
-        "Google Analytics",
-        "Google Search",
-        "Google Search Console",
-        "Google Tag Manager",
-        "Google Business",
-        "Yandex Search",
-        "Yandex Direct"
+      "title": "Employment History",
+      "lists": [
+        {
+          "dateBegin": "2015-08-01",
+          "dateEnd": "now",
+          "title": "Travel Agency Silpo Voyage (Tour Travel, Avia Tickets, Hotels, )",
+          "classifications":  ["Tour Travel", "Avia Tickets", "Hotel", "Insurance", "Train Tickets"],
+          "positionsHeld": "Middle PHP/Front-End Development"
+        },
+        {
+          "dateBegin": "2013-05-01",
+          "dateEnd": "2015-07-20",
+          "title": "Sale of auto electronics online 'Style Sound'",
+          "classifications": [],
+          "positionsHeld": "Junior PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "SEO Optimization",
+              "lists": [
+                "Moderator of content (standard SEO Promotion) update sites",
+                "the creation of advertising campaigns (Google Adwords)",
+                "Website promotion (SEO, buying links)",
+                "Improve website usability",
+                "gathering analytical data Google Analytics, customize e-commerce tracking",
+                "filtering species data for different sources of traffic",
+                "Setting conversion goals"
+              ]
+            },
+            {
+              "title": "Junior PHP/Front-End Development",
+              "lists": [
+                "Building a site on CMS OpenCart.",
+                "Creation and HTML layout of a design",
+                "platform preparation for the necessary functionality of the site",
+                "Development in Yii (Trade Management), in prodaction version of the site on Yii2"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2012-07-01",
+          "dateEnd": "2014-04-30",
+          "title": "Head of Marketing and Design Department 'Grado' (old. Botik & Glyanc)",
+          "classifications": ["sale of shoes and bags"],
+          "positionsHeld": ["Head of Marketing and Design Department", "PHP Development"],
+          "descriptions": [
+            {
+              "title": "SEO Optimization",
+              "lists": [
+                "creating a relevant description",
+                "creation of additional site functions for certain point actions or events",
+                "analysis of site traffic through Google Analytics website promotion in Google search engines, Yandex"
+              ]
+            },
+            {
+              "title": "PHP Programmer",
+              "lists": [
+                "Website development on CMS OpenCart platform",
+                "Design and layout of design",
+                "Creating new plug-ins for CMS OpenCart.",
+                "Finding the best UX solutions & optimizing the work Back End",
+                "HTML Layout Letters"
+              ]
+            },
+            {
+              "title": "Graphic work",
+              "lists": [
+                "Create Flash Ads (Action Script 3.0)",
+                "photographing and retouching images for the site format",
+                "Creation of flyers, certificates, layout for Big Borders and preparation for printing",
+                "create a page layout for magazines and prepare them for printing",
+                "creation of banners for the site Grado"
+              ]
+            },
+            {
+              "title": "Photographer",
+              "lists": [
+                "photo shoot with models",
+                "photojournalist from the company Grado at the show of Lyudmila Kislenko (LUKIS chain of stores) - 2013 \"Fashion Week Ukraine Fall Winter 2013/14\"",
+                "photo reporter on the shares of the stores Grado"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2011-12-01",
+          "dateEnd": "2012-04-01",
+          "title": "Photo Style (old. KievCityPhoto)",
+          "classifications": ["photographer on the exit", "sale of unique designer photos"],
+          "positionsHeld": "Designer",
+          "descriptions": [
+            {
+              "title": "Senior Designer",
+              "lists": [
+                "photo retouching (700 pcs / day)",
+                "checking the quality of retouching before printing",
+                "preparation of photos for printing",
+                "Working with photographers and checking the quality of photos"
+              ]
+            },
+            {
+              "title": "Photographer",
+              "lists": [
+                "Field shooting",
+                "check and prepare the equipment before shooting",
+                "production of photos (up to 450 photos)"
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "title": "JAVA Development",
-      "company": "It-center",
-      "skils": [
-        "Java Core", "Maven", "Spring", "OOP", "Hibernate", "..."
+      "title": "Education",
+      "lists": [
+        {
+          "dateBegin": "2012-09-01",
+          "dateEnd": "2017-01-30",
+          "title": "National University of Life and Environmental Sciences of Ukraine",
+          "hasNotEnd": "Expert",
+          "positionsHeld": "Enterprise economy"
+        },
+        {
+          "dateBegin": "2010-09-01",
+          "dateEnd": "2012-05-30",
+          "title": "Kyiv National University of Construction and Architecture",
+          "hasNotEnd": "up to 2 courses",
+          "positionsHeld": "Water Supply Engineer"
+        }
       ]
+    },
+    {
+      "title": "Achievements",
+      "lists": [
+        {
+          "positionsHeld": "Seo Optimizer",
+          "company": "EMPO",
+          "skils": [
+            "Google AdWords",
+            "Google Analytics",
+            "Google Search",
+            "Google Search Console",
+            "Google Tag Manager",
+            "Google Business",
+            "Yandex Search",
+            "Yandex Direct"
+          ]
+        },
+        {
+          "positionsHeld": "JAVA Development",
+          "company": "It-center",
+          "skils": [
+            "Java Core", "Maven", "Spring", "OOP", "Hibernate", "..."
+          ]
+        }
+      ]
+    }
+  ],
+  "skils": [
+    {
+      "title": "Programming languages",
+      "lists": [
+        "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java"
+      ]
+    },
+    {
+      "title": "Services",
+      "lists": [
+        "Composer", "NPM", "MongoDB",
+        "RabbitMQ", "MySQL", "MS SQL",
+        "Oracle SQL", "CRON", "nginx",
+        "Apache"
+      ]
+    },
+    {
+      "title": "PHP Frameworks & Patterns",
+      "lists": [
+        "Symfony", "Yii", "Kohana", "Laravel",
+        "OOP", "MVC", "ORM", "Doctrine ORM", "ActiveRecord"
+      ]
+    },
+    {
+      "title": "JavaScript Frameworks/Libraries",
+      "lists": [
+        "AngularJS", "jQuery", "MomentJS"
+      ]
+    },
+    {
+      "title": "API",
+      "lists": [
+        "REST", "JSON", "XML", "SOAP"
+      ]
+    },
+    {
+      "title": "Version Control System",
+      "lists": [
+        "Git", "SVN"
+      ]
+    },
+    {
+      "title": "Graphic Desing",
+      "lists": [
+        "Adobe Photoshop",
+        "Adobe Illustrator",
+        "Gimp"
+      ]
+    },
+    {
+      "title": "Task Mangers Systems",
+      "lists": ["Redmine", "GitLub"]
     }
   ]
 }
