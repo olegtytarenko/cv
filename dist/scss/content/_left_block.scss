@@ -80,6 +80,7 @@
     &__lists {
       display: block;
       padding-bottom: 10px;
+      padding-top: 15px;
       & > .dop-options {
         padding-left: 20px;
         border-left: 1px solid $left-block-color-title-text;
@@ -87,7 +88,7 @@
       }
       &__title {
         font-size: 1.25rem;
-        color: $left-block-color-title-text;
+        color: #e6e6e6;
       }
       ul {
         list-style: none;

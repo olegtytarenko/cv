@@ -68,14 +68,15 @@ html, body {
       z-index: 1; }
   .navigation-block__skills__lists {
     display: block;
-    padding-bottom: 10px; }
+    padding-bottom: 10px;
+    padding-top: 15px; }
     .navigation-block__skills__lists > .dop-options {
       padding-left: 20px;
       border-left: 1px solid #cbcfd6;
       margin-bottom: 0; }
     .navigation-block__skills__lists__title {
       font-size: 1.25rem;
-      color: #cbcfd6; }
+      color: #e6e6e6; }
     .navigation-block__skills__lists ul {
       list-style: none;
       padding-left: 0;

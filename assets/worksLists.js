@@ -14,13 +14,41 @@
         objectElement: d.getElementById('showListsWorked'),
         objectEducation: d.getElementById('showListsEducation'),
         objectAchievements: d.getElementById('showListsAchievements'),
-        divWorkList: d.getElementById('listsWork')
+        divWorkList: d.getElementById('listsWork'),
+        divListsSkills: d.getElementById('listsSkills')
     };
 
 
     self.readTextFile("libs/works.en.json", function(text){
         var data = JSON.parse(text);
+        if(data.hasOwnProperty('skills')) {
+            var $dataTitle = d.createElement('div');
+            $dataTitle.setAttribute('class', 'navigation-block__skills__title');
+            var $h2LeftSkill = d.createElement('h2');
+            $h2LeftSkill.append(data.skills.title);
+            $dataTitle.appendChild($h2LeftSkill);
+            self.divListsSkills.appendChild($dataTitle);
 
+            data.skills.lists.forEach(function(itemGroup) {
+                var $blockLists = d.createElement('div');
+                $blockLists.setAttribute('class', 'navigation-block__skills__lists');
+                var $h3Block = d.createElement('h3');
+                $h3Block.setAttribute('class', 'navigation-block__skills__lists__title');
+                $h3Block.append(itemGroup.title);
+                $blockLists.appendChild($h3Block);
+
+                var $ulBlock = d.createElement('ul');
+                itemGroup.lists.forEach(function(itemSkill) {
+                    var $liEl = d.createElement('li');
+                    $liEl.append(itemSkill);
+                    $ulBlock.appendChild($liEl);
+                });
+
+                $blockLists.appendChild($ulBlock);
+                self.divListsSkills.appendChild($blockLists);
+            })
+
+        }
         if(data.hasOwnProperty('items') && data.items.length > 0) {
             data.items.forEach(function (t) {
                 var $groupElement = d.createElement('div');
@@ -148,184 +176,6 @@
                 self.divWorkList.appendChild($groupElement);
 
             });
-        }
-
-
-        if(data.hasOwnProperty('lists') && data.lists.length > 0) {
-            data.lists.forEach(function(itemWorkInfo) {
-                var objectAppend = d.createElement('div');
-                objectAppend.setAttribute('class', 'row work__item');
-
-                var timeContent = d.createElement('div');
-                timeContent.setAttribute('class', 'col-lg-3 text-right');
-
-                var dateBegin = momentJS(itemWorkInfo.dateBegin);
-                var dateEnd = momentJS(itemWorkInfo.dateEnd);
-                if(itemWorkInfo.dateEnd === 'now') {
-                    dateEnd = momentJS();
-                }
-
-                var $timeDateBegin = d.createElement('span');
-                $timeDateBegin.setAttribute('class', 'time__text-title');
-                $timeDateBegin.innerHTML = dateBegin.format('MMM YYYY') + ' - ';
-
-                var $timeDateEnd = d.createElement('span');
-                $timeDateEnd.setAttribute('class', 'time__text-title');
-                $timeDateEnd.innerHTML = dateEnd.format(' MMM YYYY');
-
-
-                var $timeDiffHTML = d.createElement('span');
-                $timeDiffHTML.setAttribute('class', 'time__text-diff');
-                $timeDiffHTML.innerHTML = [
-                    dateEnd.diff(dateBegin, 'years'), 'Years',
-                    dateEnd.diff(dateBegin, 'month') - (dateEnd.diff(dateBegin, 'years') * 12),
-                    'Months'
-                ].join(' ');
-
-
-
-                timeContent.appendChild($timeDateBegin);
-                timeContent.appendChild($timeDateEnd);
-                timeContent.appendChild($timeDiffHTML);
-
-
-                var $contentLists = d.createElement('div');
-                $contentLists.setAttribute('class', 'col-lg-9 text-left');
-
-
-                var $titleWork = d.createElement('h3');
-                $titleWork.setAttribute('class', 'work__text-title');
-                if(typeof itemWorkInfo.positionsHeld === 'object') {
-                    $titleWork.innerHTML = itemWorkInfo.positionsHeld.join(', ');
-                } else {
-                    $titleWork.innerHTML = itemWorkInfo.positionsHeld;
-                }
-
-                var $textDev = d.createElement('div');
-                $textDev.setAttribute('class', 'work__text-title-company');
-                $textDev.innerHTML = itemWorkInfo.title;
-
-                var $classes = d.createElement('div');
-                $classes.setAttribute('class', 'work__text-title');
-                $classes.innerHTML = itemWorkInfo.classifications.join(', ');
-
-                $contentLists.appendChild($titleWork);
-                $contentLists.appendChild($textDev);
-                $contentLists.appendChild($classes);
-
-                objectAppend.appendChild(timeContent);
-                objectAppend.appendChild($contentLists);
-                self.objectElement.appendChild(objectAppend);
-            });
-        }
-        if(data.hasOwnProperty('educations') && data.educations.length > 0) {
-            data.educations.forEach(function(educationInfo) {
-                var objectAppend = d.createElement('div');
-                objectAppend.setAttribute('class', 'row work__item');
-
-                var timeContent = d.createElement('div');
-                timeContent.setAttribute('class', 'col-lg-3 text-right');
-
-                var dateBegin = momentJS(educationInfo.dateBegin);
-                var dateEnd = momentJS(educationInfo.dateEnd);
-                if(educationInfo.dateEnd === 'now') {
-                    dateEnd = momentJS();
-                }
-
-                var $timeDateBegin = d.createElement('span');
-                $timeDateBegin.setAttribute('class', 'time__text-title');
-                $timeDateBegin.innerHTML = dateBegin.format('MMM YYYY') + ' - ';
-
-                var $timeDateEnd = d.createElement('span');
-                $timeDateEnd.setAttribute('class', 'time__text-title');
-                $timeDateEnd.innerHTML = dateEnd.format(' MMM YYYY');
-
-
-                var $timeDiffHTML = d.createElement('span');
-                $timeDiffHTML.setAttribute('class', 'time__text-diff');
-                $timeDiffHTML.innerHTML = [
-                    dateEnd.diff(dateBegin, 'years'), 'Years',
-                    dateEnd.diff(dateBegin, 'month') - (dateEnd.diff(dateBegin, 'years') * 12),
-                    'Months'
-                ].join(' ');
-
-
-
-                timeContent.appendChild($timeDateBegin);
-                timeContent.appendChild($timeDateEnd);
-                timeContent.appendChild($timeDiffHTML);
-
-
-                var $contentLists = d.createElement('div');
-                $contentLists.setAttribute('class', 'col-lg-9 text-left');
-
-
-                var $titleWork = d.createElement('h3');
-                $titleWork.setAttribute('class', 'work__text-title');
-                if(typeof educationInfo.positionsHeld === 'object') {
-                    $titleWork.innerHTML = educationInfo.positionsHeld.join(', ');
-                } else {
-                    $titleWork.innerHTML = educationInfo.positionsHeld;
-                }
-
-                var $textDev = d.createElement('div');
-                $textDev.setAttribute('class', 'work__text-title-company');
-                $textDev.innerHTML = educationInfo.title;
-
-                $contentLists.appendChild($titleWork);
-                $contentLists.appendChild($textDev);
-
-                if(educationInfo.hasOwnProperty('hasNotEnd')) {
-                    //hasNotEnd
-                    var $classes = d.createElement('div');
-                    $classes.setAttribute('class', 'work__text-title');
-                    $classes.innerHTML = educationInfo.hasNotEnd;
-                    $contentLists.appendChild($classes);
-
-                }
-
-                objectAppend.appendChild(timeContent);
-                objectAppend.appendChild($contentLists);
-                self.objectEducation.appendChild(objectAppend);
-            });
-        }
-
-        if(data.hasOwnProperty('achievements') && data.achievements.length > 0) {
-            data.achievements.forEach(function(achievementInfo) {
-                var objectAppend = d.createElement('div');
-                objectAppend.setAttribute('class', 'row work__item');
-
-                var timeContent = d.createElement('div');
-                timeContent.setAttribute('class', 'col-lg-3 text-right');
-
-                var $timeDateBegin = d.createElement('span');
-                $timeDateBegin.setAttribute('class', 'time__text-title');
-                $timeDateBegin.innerHTML = achievementInfo.title;
-
-                timeContent.appendChild($timeDateBegin);
-
-
-
-                var $contentLists = d.createElement('div');
-                $contentLists.setAttribute('class', 'col-lg-9 text-left');
-
-
-                var $titleWork = d.createElement('h3');
-                $titleWork.setAttribute('class', 'work__text-title');
-                $titleWork.innerHTML = achievementInfo.company;
-
-                var $textDev = d.createElement('div');
-                $textDev.setAttribute('class', 'work__text-title-company');
-                $textDev.innerHTML = achievementInfo.skils.join(', ');
-
-                $contentLists.appendChild($titleWork);
-                $contentLists.appendChild($textDev);
-
-
-                objectAppend.appendChild(timeContent);
-                objectAppend.appendChild($contentLists);
-                self.objectAchievements.appendChild(objectAppend);
-            })
         }
     });
 })(window, window.document, window.JSON, window.XMLHttpRequest, window.moment);

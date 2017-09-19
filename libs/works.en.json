@@ -8,7 +8,48 @@
           "dateEnd": "now",
           "title": "Travel Agency Silpo Voyage (Tour Travel, Avia Tickets, Hotels, )",
           "classifications":  ["Tour Travel", "Avia Tickets", "Hotel", "Insurance", "Train Tickets"],
-          "positionsHeld": "Middle PHP/Front-End Development"
+          "positionsHeld": "Middle PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "Development",
+              "lists": [
+                "Implementation of projects on the PHP Framework Kohana",
+                "Migrating projects with Kohana on Symfony",
+                "Update Front-End with jQuery on AngularJS",
+                "Creation of console scripts under the application (for scheduled tasks under the crown)",
+                "The distribution of parallel background processes (RabbitMQ)",
+                "Implementing on the Back End and crisscrossing API's of different Consolidators",
+                "Realization of own API's for Front End in view of the phasing settings and the type of arrangement"
+              ]
+            },
+            {
+              "title": "Organization of projects",
+              "lists": [
+                "Project projecting",
+                "Distribution of tasks",
+                "Planned introduction of new resources (GDS's)"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2016-01-16",
+          "dateEnd": "2016-07-30",
+          "title": "PHP Academy",
+          "positionsHeld": "Teacher PHP, SQL",
+          "classifications": [],
+          "descriptions": [
+            {
+              "title": "Theory and Practice of PHP",
+              "lists": [
+                "Basic PHP",
+                "OOP PHP",
+                "MVC PHP",
+                "Patterns PHP",
+                "PHP + SQL"
+              ]
+            }
+          ]
         },
         {
           "dateBegin": "2013-05-01",
@@ -35,7 +76,8 @@
                 "Building a site on CMS OpenCart.",
                 "Creation and HTML layout of a design",
                 "platform preparation for the necessary functionality of the site",
-                "Development in Yii (Trade Management), in prodaction version of the site on Yii2"
+                "Development in Yii v.1 create CRM System",
+                "Online Megazine release on Yii2"
               ]
             }
           ]
@@ -159,58 +201,61 @@
       ]
     }
   ],
-  "skils": [
-    {
-      "title": "Programming languages",
-      "lists": [
-        "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java"
-      ]
-    },
-    {
-      "title": "Services",
-      "lists": [
-        "Composer", "NPM", "MongoDB",
-        "RabbitMQ", "MySQL", "MS SQL",
-        "Oracle SQL", "CRON", "nginx",
-        "Apache"
-      ]
-    },
-    {
-      "title": "PHP Frameworks & Patterns",
-      "lists": [
-        "Symfony", "Yii", "Kohana", "Laravel",
-        "OOP", "MVC", "ORM", "Doctrine ORM", "ActiveRecord"
-      ]
-    },
-    {
-      "title": "JavaScript Frameworks/Libraries",
-      "lists": [
-        "AngularJS", "jQuery", "MomentJS"
-      ]
-    },
-    {
-      "title": "API",
-      "lists": [
-        "REST", "JSON", "XML", "SOAP"
-      ]
-    },
-    {
-      "title": "Version Control System",
-      "lists": [
-        "Git", "SVN"
-      ]
-    },
-    {
-      "title": "Graphic Desing",
-      "lists": [
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-        "Gimp"
-      ]
-    },
-    {
-      "title": "Task Mangers Systems",
-      "lists": ["Redmine", "GitLub"]
-    }
-  ]
+  "skills": {
+    "title": "Skills",
+    "lists": [
+      {
+        "title": "Programming languages",
+        "lists": [
+          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java"
+        ]
+      },
+      {
+        "title": "Services",
+        "lists": [
+          "Composer", "NPM", "MongoDB",
+          "RabbitMQ", "MySQL", "MS SQL",
+          "Oracle SQL", "CRON", "nginx",
+          "Apache"
+        ]
+      },
+      {
+        "title": "PHP Frameworks & Patterns",
+        "lists": [
+          "Symfony", "Yii", "Kohana", "Laravel",
+          "OOP", "MVC", "ORM", "Doctrine ORM", "ActiveRecord"
+        ]
+      },
+      {
+        "title": "JavaScript Frameworks/Libraries",
+        "lists": [
+          "AngularJS", "jQuery", "MomentJS"
+        ]
+      },
+      {
+        "title": "API",
+        "lists": [
+          "REST", "JSON", "XML", "SOAP"
+        ]
+      },
+      {
+        "title": "Version Control System",
+        "lists": [
+          "Git", "SVN"
+        ]
+      },
+      {
+        "title": "Graphic Desing",
+        "lists": [
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Gimp"
+        ]
+      },
+      {
+        "title": "Task Mangers Systems",
+        "lists": ["Redmine", "GitLub"]
+      }
+    ]
+  }
 }
