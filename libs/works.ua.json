@@ -1,0 +1,290 @@
+{
+  "items": [
+    {
+      "title": "Досвід роботи",
+      "lists": [
+        {
+          "dateBegin": "2017-11-01",
+          "dateEnd": "2018-02-01",
+          "title": "EvoPlay",
+          "classifications": ["BackEnd Projects"],
+          "positionsHeld": "Middle PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "PHP Development",
+              "lists": [
+                "Впровадження проектів на PHP Framework Laravel"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2015-08-01",
+          "dateEnd": "2017-11-01",
+          "title": "Туристична компанія \"Сільпо Вояж\"",
+          "classifications":  ["Tour Travel", "Avia Tickets", "Hotel", "Insurance", "Train Tickets"],
+          "positionsHeld": "Middle PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "Розробка",
+              "lists": [
+                "Впровадження проектів на PHP Framework Kohana",
+                "Переміщення проектів з Kohana на Symfony",
+                "Оновлення Front-End з JQuery на AngularJS",
+                "Створення консольних скриптів під проектом (для запланованих завдань під cron)",
+                "Розподіл паралельних фонових процесів (RabbitMQ)",
+                "Реалізація API запітів",
+                "Реалізація власних API для Front End з урахуванням налаштувань проекту"
+              ]
+            },
+            {
+              "title": "Організація проектів",
+              "lists": [
+                "Планування проекта",
+                "Розподіл завдань",
+                "Плановане впровадження нових ресурсів (GDS)"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2016-01-16",
+          "dateEnd": "2016-07-30",
+          "title": "PHP Academy",
+          "positionsHeld": "Викладач PHP, SQL",
+          "classifications": [],
+          "descriptions": [
+            {
+              "title": "Теорія та практика PHP",
+              "lists": [
+                "Basic PHP",
+                "OOP PHP",
+                "MVC PHP",
+                "Patterns PHP",
+                "PHP + SQL"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2013-05-01",
+          "dateEnd": "2015-07-20",
+          "title": "Продаж авто електроніки онлайн 'Стиль Звука'",
+          "classifications": [],
+          "positionsHeld": "Junior PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "SEO Оптимізація",
+              "lists": [
+                "Модератор вмісту (стандартний просування по SEO), оновлення сайтів",
+                "створення рекламних кампаній (Google Adwords)",
+                "Просування веб-сайтів (SEO, покупка посилань)",
+                "Покращити зручність використання веб-сайту",
+                "збір аналітичних даних Google Analytics, налаштування відстеження електронної комерції",
+                "фільтрування даних видів для різних джерел трафіку",
+                "Налаштування цілей конверсії"
+              ]
+            },
+            {
+              "title": "Junior PHP/Front-End Development",
+              "lists": [
+                "Створення сайту на CMS OpenCart.",
+                "Створення та HTML компонування дизайну",
+                "підготовка платформи для необхідної функціональності сайту",
+                "Розробка в Yii v.1 створена CRM-система",
+                "Створення сайту на Yii v2"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2012-07-01",
+          "dateEnd": "2014-04-30",
+          "title": "Начальник відділу маркетингу та дизайну 'Grado' (old. Botik & Glyanc)",
+          "classifications": ["продаж взуття та сумок"],
+          "positionsHeld": ["Начальник відділу маркетингу та дизайну", "PHP Development"],
+          "descriptions": [
+            {
+              "title": "SEO Оптимізація",
+              "lists": [
+                "створення відповідного опису",
+                "створення додаткових функцій сайту для певних точкових дій або подій",
+                "аналіз трафіку сайту через просування сайту Google Analytics у пошукових системах Google, Yandex"
+              ]
+            },
+            {
+              "title": "PHP Programmer",
+              "lists": [
+                "Розробка веб-сайтів на платформі CMS OpenCart",
+                "Дизайн і макет дизайну",
+                "Створення нових плагінів для CMS OpenCart.",
+                "Пошук найкращих рішень UX та оптимізація роботи Назад Кінець",
+                "Розмітка HTML-листів"
+              ]
+            },
+            {
+              "title": "Графічна робота",
+              "lists": [
+                "Створення Flash-оголошень (Action Script 3.0)",
+                "фотографування та ретушування зображень для формату сайту",
+                "Створення флаєрів, сертифікатів, макетів",
+                "Створення рекламних сторінок для журналів та підготувати їх до друку",
+                "створення банерів для сайту Grado"
+              ]
+            },
+            {
+              "title": "Фотограф",
+              "lists": [
+                "фотосесія з моделями",
+                "фотожурналіст компанії Grado на виставці Людмили Кисленко (мережа магазинів LUKIS) - 2013 рік \"Тиждень моди України осінь зима 2013/14\"",
+                "фоторепортер на акції магазинів Градо"
+              ]
+            }
+          ]
+        },
+        {
+          "dateBegin": "2011-12-01",
+          "dateEnd": "2012-04-01",
+          "title": "Фото Стиль (old. КиевГорФото)",
+          "classifications": ["фотограф на виході", "продаж унікальних дизайнерських фотографій"],
+          "positionsHeld": "Дизайнер",
+          "descriptions": [
+            {
+              "title": "Фото ретуш",
+              "lists": [
+                "ретушування фотографій (700 шт / день)",
+                "перевірка якості ретушування перед друком",
+                "підготовка фотографій для друку",
+                "Робота з фотографами та перевірка якості фотографій"
+              ]
+            },
+            {
+              "title": "Фотограф",
+              "lists": [
+                "Зенітна стрільба",
+                "перевірити та підготувати обладнання до зйомки",
+                "виробництво фотографій (до 450 фотографій)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Освіта",
+      "lists": [
+        {
+          "dateBegin": "2012-09-01",
+          "dateEnd": "2017-01-30",
+          "title": "Національний університет біоресурсів і природокористування України",
+          "hasNotEnd": "Експерт",
+          "positionsHeld": "Економіка підприємства"
+        },
+        {
+          "dateBegin": "2010-09-01",
+          "dateEnd": "2012-05-30",
+          "title": "Київський національний університет будівництва та архітектури",
+          "hasNotEnd": "до 2 курсу",
+          "positionsHeld": "Інженер водопостачання"
+        }
+      ]
+    },
+    {
+      "title": "Курси",
+      "lists": [
+        {
+          "positionsHeld": "Seo Оптимізація",
+          "company": "EMPO",
+          "skils": [
+            "Google AdWords",
+            "Google Analytics",
+            "Google Search",
+            "Google Search Console",
+            "Google Tag Manager",
+            "Google Business",
+            "Yandex Search",
+            "Yandex Direct"
+          ]
+        },
+        {
+          "positionsHeld": "JAVA Development",
+          "company": "It-center",
+          "skils": [
+            "Java Core", "Maven", "Spring", "OOP", "Hibernate", "..."
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "title": "Навички",
+    "lists": [
+      {
+        "title": "Мови програмування",
+        "lists": [
+          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java"
+        ]
+      },
+      {
+        "title": "Services",
+        "lists": [
+          "Composer", "NPM", "MongoDB",
+          "RabbitMQ", "MySQL", "MS SQL",
+          "Oracle SQL", "CRON", "nginx",
+          "Apache"
+        ]
+      },
+      {
+        "title": "PHP Frameworks & Patterns",
+        "lists": [
+          "Symfony", "Yii", "Kohana", "Laravel",
+          "OOP", "MVC", "ORM", "Doctrine ORM", "ActiveRecord"
+        ]
+      },
+      {
+        "title": "JavaScript Frameworks/Libraries",
+        "lists": [
+          "AngularJS", "jQuery", "MomentJS"
+        ]
+      },
+      {
+        "title": "API",
+        "lists": [
+          "REST", "JSON", "XML", "SOAP"
+        ]
+      },
+      {
+        "title": "Version Control System",
+        "lists": [
+          "Git", "SVN"
+        ]
+      },
+      {
+        "title": "Graphic Desing",
+        "lists": [
+          "Adobe Photoshop",
+          "Adobe Illustrator",
+          "Gimp"
+        ]
+      },
+      {
+        "title": "Task Mangers Systems",
+        "lists": ["Redmine", "GitLub"]
+      }
+    ]
+  },
+  "system": {
+    "year_one": "Рік",
+    "year_two": "Роки",
+    "year_three": "Років",
+    "month_one": "Місяць",
+    "month_two": "Місяці",
+    "month_three": "Місяців"
+  },
+  "texts":  [
+    "Широкий практичний досвід з різними PHP-Frameworks (Yii 1.2, Laravel, Symfony). Розроблені програми API (REST JSON) для Front-End.",
+    "Я хочу вивчати нові методи та технології для кращого та швидшого вирішення завдань.",
+    "У мене є досвід організації великих проектів. Також є досвід викладання в практичних та теоретичних заняттях з 20 і більше студентами."
+  ],
+  "titleSum": "Резюме"
+}

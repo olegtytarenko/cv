@@ -6,7 +6,7 @@
         {
           "dateBegin": "2017-11-01",
           "dateEnd": "2018-02-01",
-          "title": "EvePlay",
+          "title": "EvoPlay",
           "classifications": ["BackEnd Projects"],
           "positionsHeld": "Middle PHP/Front-End Development",
           "descriptions": [
@@ -92,7 +92,7 @@
                 "Creation and HTML layout of a design",
                 "platform preparation for the necessary functionality of the site",
                 "Development in Yii v.1 create CRM System",
-                "Online Megazine release on Yii2"
+                "Online Store release on Yii2"
               ]
             }
           ]
@@ -272,5 +272,19 @@
         "lists": ["Redmine", "GitLub"]
       }
     ]
-  }
+  },
+  "system": {
+    "year_one": "Year",
+    "year_two": "Years",
+    "year_three": "Years",
+    "month_one": "Month",
+    "month_two": "Months",
+    "month_three": "Months"
+  },
+  "texts":  [
+    "Extensive practical experience with various PHP Frameworks (Yii 1.2; Laravel; Symfony). Developed API (REST JSON) applications for Front-End.",
+    "I want to study new methods and technologies for better and faster solution of tasks.",
+    "I have experience in organizing of large projects. Also have teaching experience  in practical and  theoretical classes with 20 and more students."
+  ],
+  "titleSum": "Summary"
 }

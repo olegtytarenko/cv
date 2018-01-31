@@ -98,6 +98,7 @@ html, body {
   @media (max-width: 736px) {
     .summary-block__description {
       padding: 0 0 20px; } }
+
 .summary-block__title {
   margin: 60px 0; }
   .summary-block__title h2 {
@@ -142,6 +143,7 @@ html, body {
   text-transform: uppercase;
   font-size: 23px;
   color: #8d8e8e; }
+
 .time__text-diff {
   display: block;
   color: #4e4e4e; }
@@ -152,14 +154,37 @@ html, body {
   padding-top: 20px; }
   .work__item:last-child {
     border-bottom: 0; }
+
 .work__text-title {
   color: #435471;
   margin-top: 4px; }
+
 .work__text-title-company {
   color: #2d2d2d;
   font-size: 18px; }
+
 .work__descriptions {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-/*# sourceMappingURL=style.css.map */
+.language-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #8293b1; }
+  @media (max-width: 480px) {
+    .language-panel {
+      bottom: 0;
+      top: auto; } }
+  .language-panel ul {
+    margin: 0;
+    padding: 0; }
+    .language-panel ul li.change-lang {
+      list-style: none;
+      cursor: pointer;
+      float: left;
+      padding: 5px 15px;
+      color: white; }
+      .language-panel ul li.change-lang.select {
+        background-color: #ffc338;
+        color: black; }

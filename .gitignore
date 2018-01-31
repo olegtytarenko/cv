@@ -24,3 +24,6 @@ gen### Linux template
 
 Будет удалено .gitignore
 Будет удалено .idea/
+
+node_modules
+package-lock.json

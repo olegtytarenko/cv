@@ -1,0 +1,26 @@
+.language-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #8293b1;
+  @media (max-width: 480px) {
+   bottom: 0;
+    top: auto;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    li.change-lang {
+      list-style: none;
+      cursor: pointer;
+      float: left;
+      padding: 5px 15px;
+      color: white;
+      &.select {
+        background-color: #ffc338;
+        color: black;
+      }
+    }
+  }
+}

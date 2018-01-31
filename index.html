@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="assets/style.css">
     <script src="https://use.fontawesome.com/5212d0c32f.js"></script>
     <script src="https://momentjs.com/downloads/moment.js"></script>
+    <script src="https://momentjs.com/downloads/moment-with-locales.js"></script>
     <title>CV: Oleg Tytarenko</title>
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script>
@@ -49,88 +50,21 @@
                     <a href="skype:olegtytarenko" title="My Skype Account"><i class="fa fa-skype" aria-hidden="true"></i> olegtytarenko</a>
                 </div>
             </div>
-            <div class="navigation-block__skills" id="listsSkills">
-
-            </div>
-            <div style="display: none">
-                <div class="navigation-block__skills__title">
-                    <h2>Skills</h2>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">Programming languages</h3>
-                    <ul><li>PHP</li><li>JavaScript</li><li>CSS</li><li>SASS (SCSS)</li><li>Java</li><li>SQL</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">Services</h3>
-                    <ul>
-                        <li>Composer</li><li>NPM</li><li>MongoDB</li><li>RabbitMQ</li>
-                        <li>MySQL</li><li>MS SQL</li><li>Oracle SQL</li>
-                        <li>CRON</li><li>nginx</li><li>Apache</li>
-                    </ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h4 class="navigation-block__skills__lists__title ">PHP Frameworks</h4>
-                    <ul><li>Symfony</li><li>Yii</li><li>Kohana</li><li>Laravel</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h4 class="navigation-block__skills__lists__title">PHP Patterns</h4>
-                    <ul><li>OOP</li><li>MVC</li><li>ORM</li><li>Doctrine ORM</li><li>ActiveRecord</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h4 class="navigation-block__skills__lists__title ">JS Frameworks/Libraries</h4>
-                    <ul><li>AngularJS</li><li>jQuery</li><li>MomentJS</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">API</h3>
-                    <ul><li>REST</li><li>JSON</li><li>XML</li><li>SOAP</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">Version Control System</h3>
-                    <ul><li>Git</li><li>SVN</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">Graphic Desing</h3>
-                    <ul><li>Adobe Photoshop</li><li>Adobe Illustrator</li><li>Gimp</li></ul>
-                </div>
-                <div class="navigation-block__skills__lists">
-                    <h3 class="navigation-block__skills__lists__title">Task Mangers Systems</h3>
-                    <ul><li>Redmine, GitLub</li></ul>
-                </div>
-            </div>
+            <div class="navigation-block__skills" id="listsSkills"></div>
         </div>
         <div class="col-lg-9 col-md-8">
             <div class="summary-block__title text-center">
-                <h2>Summary</h2>
+                <h2 id="titleSummary">Summary</h2>
             </div>
-            <div class="summary-block__description">
-
-                <p>Extensive practical experience with various PHP Frameworks (Yii 1.2; Laravel; Symfony). Developed API (REST JSON) applications for Front-End.</p>
-                <p>I want to study new metods and technologies for better and faster solution of tasks.</p>
-                <p>I have experience in organizing of large projects. Also have teaching experience  in practical and  theoretical classes with 20 and more students.</p>
-
-            </div>
+            <div class="summary-block__description" id="textSummary"></div>
             <div id="listsWork"></div>
-            <div style="display: none" class="hide">
-                <div class="item-info-block">
-                    <div class="item-info-block__title"><h3>Employment History</h3></div>
-                    <div class="item-info-block__time">
-                        <div class="container-fluid" id="showListsWorked"></div>
-                    </div>
-                </div>
-                <div class="item-info-block">
-                    <div class="item-info-block__title"><h3>Education</h3></div>
-                    <div class="item-info-block__time">
-                        <div class="container-fluid" id="showListsEducation"></div>
-                    </div>
-                </div>
-                <div class="item-info-block">
-                    <div class="item-info-block__title"><h3>Achievements</h3></div>
-                    <div class="item-info-block__time">
-                        <div class="container-fluid" id="showListsAchievements"></div>
-                    </div>
-                </div>
-            </div>
         </div>
+    </div>
+    <div class="language-panel">
+        <ul>
+            <li class="change-lang" data-lang="en">EN</li>
+            <li class="change-lang" data-lang="ua">UA</li>
+        </ul>
     </div>
     <script type="application/javascript" src="assets/dateTime.js"></script>
     <script type="application/javascript" src="assets/worksLists.js"></script>
