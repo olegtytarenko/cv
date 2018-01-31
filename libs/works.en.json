@@ -4,6 +4,21 @@
       "title": "Employment History",
       "lists": [
         {
+          "dateBegin": "2017-11-01",
+          "dateEnd": "2018-02-01",
+          "title": "EvePlay",
+          "classifications": ["BackEnd Projects"],
+          "positionsHeld": "Middle PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "PHP Development",
+              "lists": [
+                "Implementation of projects on the PHP Framework Laravel"
+              ]
+            }
+          ]
+        },
+        {
           "dateBegin": "2015-08-01",
           "dateEnd": "2017-11-01",
           "title": "Travel Agency Silpo Voyage (Tour Travel, Avia Tickets, Hotels, )",

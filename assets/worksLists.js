@@ -90,11 +90,16 @@
 
                         var $timeDiffHTML = d.createElement('span');
                         $timeDiffHTML.setAttribute('class', 'time__text-diff');
-                        $timeDiffHTML.innerHTML = [
-                            dateEnd.diff(dateBegin, 'years'), 'Years',
-                            dateEnd.diff(dateBegin, 'month') - (dateEnd.diff(dateBegin, 'years') * 12),
-                            'Months'
-                        ].join(' ');
+                        var year = dateEnd.diff(dateBegin, 'years');
+                        var innerData = [];
+
+                        if(year > 0) {
+                            innerData.push( dateEnd.diff(dateBegin, 'years'));
+                            innerData.push('Years');
+                        }
+                        innerData.push(dateEnd.diff(dateBegin, 'month') - (dateEnd.diff(dateBegin, 'years') * 12));
+                        innerData.push('Months');
+                        $timeDiffHTML.innerHTML = innerData.join(' ');
                         timeContent.appendChild($timeDateBegin);
                         timeContent.appendChild($timeDateEnd);
                         timeContent.appendChild($timeDiffHTML);
