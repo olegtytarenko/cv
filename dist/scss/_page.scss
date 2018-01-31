@@ -1,0 +1,59 @@
+@media print {
+  .language-panel {
+    display: none;
+  }
+
+  .navigation-block {
+    background: none;
+    color: #2d2d2d;
+
+    .navigation-block__user-contact {
+      float: left;
+      width: 100%;
+      .navigation-block__user-contact__element {
+        display: none;
+        &:nth-child(1), &:nth-child(2) {
+          display: block;
+          float: left;
+          width: 50%;
+          text-align: center;
+        }
+      }
+    }
+    .navigation-block__skills {
+      float: left;
+      width: 100%;
+      .navigation-block__skills__title > h2 {
+        display: block;
+        width: 100%;
+        background: none;
+        text-align: center;
+        color: #8a8989;
+      }
+      .navigation-block__skills__lists {
+        width: 50%;
+        float: left;
+        vertical-align: top;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        ul {
+          padding-bottom: 0;
+          margin-bottom: 0;
+          li {
+            color: #9e9e9e;
+          }
+        }
+        .navigation-block__skills__lists__title {
+          color: #8a8a8a;
+        }
+      }
+    }
+  }
+
+  .summary-block__description {
+    padding: 0;
+  }
+  .summary-block__title {
+    margin: 0;
+  }
+}
