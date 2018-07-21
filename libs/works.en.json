@@ -4,6 +4,21 @@
       "title": "Employment History",
       "lists": [
         {
+          "dateBegin": "2018-02-20",
+          "dateEnd": "now",
+          "classifications": ["Outsource projects", "RTB", "SSP"],
+          "positionsHeld": "Middle PHP/Front-End Development",
+          "descriptions": [
+            {
+              "title": "Full-Stack PHP/JS Development",
+              "lists": [
+                "Creation of the PHP MVC framework",
+                "Support and Project Creation"
+              ]
+            }
+          ]
+        },
+        {
           "dateBegin": "2017-11-01",
           "dateEnd": "2018-02-01",
           "title": "EvoPlay",
