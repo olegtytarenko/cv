@@ -247,7 +247,7 @@
           "Composer", "NPM", "MongoDB",
           "RabbitMQ", "MySQL", "MS SQL",
           "Oracle SQL", "CRON", "nginx",
-          "Apache"
+          "Apache", "ClickHouse"
         ]
       },
       {
@@ -260,7 +260,7 @@
       {
         "title": "JavaScript Frameworks/Libraries",
         "lists": [
-          "AngularJS", "jQuery", "MomentJS"
+          "AngularJS/Angular", "jQuery", "MomentJS", "VueJS"
         ]
       },
       {
@@ -285,7 +285,7 @@
       },
       {
         "title": "Task Mangers Systems",
-        "lists": ["Redmine", "GitLub"]
+        "lists": ["Redmine", "GitLub", "Jira", "Bitbucket"]
       }
     ]
   },
