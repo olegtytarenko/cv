@@ -238,7 +238,7 @@
       {
         "title": "Programming languages",
         "lists": [
-          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java"
+          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java", "Python"
         ]
       },
       {
@@ -298,9 +298,8 @@
     "month_three": "Months"
   },
   "texts":  [
-    "Extensive practical experience with various PHP Frameworks (Yii 1.2; Laravel; Symfony). Developed API (REST JSON) applications for Front-End.",
-    "I want to study new methods and technologies for better and faster solution of tasks.",
-    "I have experience in organizing of large projects. Also have teaching experience  in practical and  theoretical classes with 20 and more students."
+    "Extensive practical experience with various PHP Frameworks (Laravel; Symfony). Developed API (REST JSON) applications for Front-End.",
+    "I want to study new methods and technologies for better and faster solution of tasks."
   ],
   "titleSum": "Summary"
 }

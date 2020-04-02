@@ -16,6 +16,7 @@
       @include borderRadius(50, 50, 50, 50, '%');
       & > img {
         @include borderRadius(50, 50, 50, 50, '%');
+        max-width: 160px;
       }
     }
     &__title {

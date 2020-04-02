@@ -21,7 +21,8 @@ html, body {
       border-radius: 50%;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
-      -ms-border-radius: 50%; }
+      -ms-border-radius: 50%;
+      max-width: 160px; }
   .navigation-block__user-info__title > h1 {
     font-size: 23px;
     text-align: center;

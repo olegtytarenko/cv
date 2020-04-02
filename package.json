@@ -1,5 +1,8 @@
 {
   "scripts": {
-     "build-css": "node-sass --include-path scss dist/scss/style.scss  assets/style.css"
+    "build-css": "node-sass --include-path scss dist/scss/style.scss  assets/style.css"
+  },
+  "dependencies": {
+    "node-sass": "^4.13.1"
   }
 }

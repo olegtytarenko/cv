@@ -5,7 +5,7 @@
         while ($listsTimeSelect = listsTagTime.item(iTimeSelect++)) {
             var timeISOString = $listsTimeSelect.getAttribute('datetime');
             if(timeISOString === 'now') {
-                $listsTimeSelect.innerHTML = momentJS().format('MMMM YYYY');
+                $listsTimeSelect.innerHTML = 'Today';
             } else {
                 $listsTimeSelect.innerHTML = momentJS(timeISOString).format('MMMM YYYY');
             }

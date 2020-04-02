@@ -134,7 +134,7 @@
 
                                 var $timeDateEnd = d.createElement('span');
                                 $timeDateEnd.setAttribute('class', 'time__text-title');
-                                $timeDateEnd.innerHTML = dateEnd.format(' MMM YYYY');
+                                $timeDateEnd.innerHTML = t2.dateEnd === 'now' ? 'Today' : dateEnd.format(' MMM YYYY');
 
 
                                 var $timeDiffHTML = d.createElement('span');
