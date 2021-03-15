@@ -7,14 +7,27 @@
           "dateBegin": "2018-02-20",
           "dateEnd": "now",
           "title": "Smarty ADS",
-          "classifications": ["Outsource projects", "RTB", "SSP"],
-          "positionsHeld": "Middle PHP/Front-End Development",
+          "classifications": ["Outsource projects", "RTB", "SSP", "DSP", "Advertising", "Ad"],
+          "positionsHeld": "Senior PHP/Front-End Development",
           "descriptions": [
             {
               "title": "Full-Stack PHP/JS Development",
               "lists": [
-                "Створення структури PHP MVC",
-                "Підтримка та створення проектів"
+                "Підтримка існуючих проектів",
+                "Розробка нових функцій",
+                "Робота з великим обсягом данних",
+                "Вдосконалення та оптимізація програмного коду",
+                "Впровадження автоматизованих рішень",
+                "Розробка REST API для додатків"
+              ]
+            },
+            {
+              "title": "Технології",
+              "lists": [
+                "PHP", "JavaScript (ECMAScript) ES6 / ES5",
+                "RabbitMq", "Vue", "Angular", "Laravel 5, 7, 8",
+                "Symfony Components", "ClickHouse", "Mysql", "CI/CD GitLab",
+                "Jenkins", "Selenium WebDriver", "Docker", "Apache / Nginx"
               ]
             }
           ]
@@ -238,7 +251,7 @@
       {
         "title": "Мови програмування",
         "lists": [
-          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java", "Python"
+          "PHP", "JavaScript", "CSS", "SASS (SCSS)", "Java", "Python", "Go"
         ]
       },
       {
@@ -276,7 +289,7 @@
         ]
       },
       {
-        "title": "Graphic Desing",
+        "title": "Graphic Design",
         "lists": [
           "Adobe Photoshop",
           "Adobe Illustrator",
